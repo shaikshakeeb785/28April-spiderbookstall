@@ -24,6 +24,7 @@ public class CustomerBookController
     public String customerRegistration( Model model)
     {
         model.addAttribute("registerObject", new CustomerDetail());
+        System.out.println("hey dummy out put");
         return "customerRegistrationPage";
     }
 
